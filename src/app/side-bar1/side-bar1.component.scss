@@ -7,8 +7,20 @@
 }
 .image_profile {
   border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 .username {
   font-size: 10px;
   opacity: 0.88;
+}
+.img_get_our_app{
+  height: 200px;
+  width: 150px;
+  border: 2px solid white;
+  border-radius: 1em;
+  /* text-align: center; */
+  /* padding: 10px; */
+  margin: 19px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
 }
