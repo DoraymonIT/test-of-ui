@@ -10,8 +10,12 @@ export class ContentFeedsComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    localStorage.setItem('likes', '0');
-    this.number_of_likes = parseInt(localStorage.getItem('likes'));
+    if (localStorage.getItem('likes')) {
+      this.number_of_likes = parseInt(localStorage.getItem('likes'));
+    } else {
+      localStorage.setItem('likes', '0');
+      this.number_of_likes = parseInt(localStorage.getItem('likes'));
+    }
   }
   addLikes() {
     this.number_of_likes = this.number_of_likes + 1;
