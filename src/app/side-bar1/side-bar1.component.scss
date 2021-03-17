@@ -2,7 +2,7 @@
   font-weight: bold;
 }
 .fa-icon {
-  color: #a974ff;
+  // color: #a974ff;
   margin-right: 1em;
 }
 .image_profile {
@@ -14,7 +14,7 @@
   font-size: 10px;
   opacity: 0.88;
 }
-.img_get_our_app{
+.img_get_our_app {
   height: 200px;
   width: 150px;
   border: 2px solid white;
@@ -23,4 +23,27 @@
   /* padding: 10px; */
   margin: 19px;
   box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
+}
+.p_active {
+  font-weight: 600;
+  box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
+  padding: 15px 0px 15px 10px;
+  cursor: pointer;
+  .fa-icon {
+    color: #a974ff;
+
+  }
+}
+.p_inactive {
+  font-weight: 600;
+  color: #a4b6e1;
+  padding: 10px 0px 10px 10px;
+  cursor: pointer;
+}
+.p_inactive:hover{
+  box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
+  .fa-icon {
+    color: #a974ff;
+
+  }
 }
